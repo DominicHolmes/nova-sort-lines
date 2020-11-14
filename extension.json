@@ -1,0 +1,33 @@
+{
+    "identifier": "org.DominicHolmes.SortLines",
+    "name": "Sort Lines",
+    "organization": "Dominic Holmes",
+    "description": "Sort lines in alphabetical order.",
+    "version": "1.0",
+    "categories": ["commands"],
+    "repository": "https://github.com/DominicHolmes/nova-sort-lines",
+    "bugs": "https://github.com/DominicHolmes/nova-sort-lines/issues",
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "*",
+    ],
+    
+    "entitlements": {
+        
+    },
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Alphabetical",
+                "command": "sort-lines.alphabetical"
+            },
+            {
+                "title": "Alphabetical (Case Sensitive)",
+                "command": "sort-lines.alphabeticalCaseSensitive"
+            },
+        ]
+    }
+}
